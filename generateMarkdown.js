@@ -1,46 +1,44 @@
 // function to generate markdown for README
-
-
 function generateMarkdown(data) {
-    const titleMD = (data.title);
-    const descriptionMD = ()
-    return `# Title
-    ## Description
+  return `# ${data.title}
 
-    This is a description.
+  ## Description
 
-    ## Installation
+  ${data.description}
 
-    Here are some installation instructions.
-    `;
-//     return `# ${data.title}
-//      ## Description   
+  ## Table of Contents
+  - [Installation](#installation)
+  - [Usage](#usage)
+  - [Contributions](#contribution)
+  - [License](#license)
+  - [Tests](#tests)
+  - [Questions](#questions)
 
-//      ${data.description}   
-          
-     
-//      ## Installation Instructions
-     
-//      ${data.installation}
-     
-     
-//      ## Usage Instructions
-     
-//      ${data.usage}
-     
-     
-//      ## Contribution Instructions
-     
-//      ${data.contribution}
-    
-     
-//      ## Tests
-     
-//      ${data.test}
-     
-//      ## Questions
-
-//   `;
-  }
+  ## Installation
   
-  module.exports = generateMarkdown;
+  ${data.installation}
+
+  ## Usage
+
+  ${data.usage}
+
+  ## Contributions
+
+  ${data.contribution}
+
+  ## License
+
+  ${data.license}
+
+  ## Tests
+
+  ${data.test}
+
+  ## Questions
+
+  If you have any questions or comment please contact me via email at ${data.email}
+
+  `;
+}
+
+module.exports = generateMarkdown;
