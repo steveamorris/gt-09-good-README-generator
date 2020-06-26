@@ -1,5 +1,6 @@
 ./package-lock.json
 ./Homework.md
+.DS_Store/
 
 # Logs
 logs

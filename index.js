@@ -21,9 +21,9 @@ function init() {
         // call geneateMarkdown
         const newMD = generateMarkdown(answers);
         // pass generated markdown to writeTo File fucntion
-        writeToFile("README.md", newMD);
+        writeToFile("README_Test.md", newMD);
     });
 };
-
+// Call init to begin
 init();
 
