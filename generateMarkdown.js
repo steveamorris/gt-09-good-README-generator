@@ -2,12 +2,17 @@
 
 
 function generateMarkdown(data) {
+    const titleMD = (data.title);
+    const descriptionMD = ()
+    return `# Title
+    ## Description
 
-    return [`"# Title",
-    "## Title",
-    "Here is a paragraph"
- 
-    `].join(`\n`);
+    This is a description.
+
+    ## Installation
+
+    Here are some installation instructions.
+    `;
 //     return `# ${data.title}
 //      ## Description   
 

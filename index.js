@@ -1,8 +1,8 @@
 // import pacakges
 const generateMarkdown = require("./generateMarkdown");
+const questions = require("./questions");
 const fs = require("fs");
 const inquirer = require("inquirer");
-const questions = require("./questions");
 
 // Function Definitions
 // Write output of generateMarkdown to filename
