@@ -1,5 +1,5 @@
 # gt-09-good-README-generator
-https://github.com/steveamorris/gt-09-good-README-generator
+  [![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
 
   ## Description
 
@@ -15,11 +15,11 @@ https://github.com/steveamorris/gt-09-good-README-generator
 
   ## Installation
   
-  To install, clone the repository and run 'npm install'.
+  To install, clone the repositoruy and run 'npm install'.
 
   ## Usage
 
-  To use this app, run 'node index.js' and then answer the questions to the bet of your ability.  I separated out the Questions Object to make index.js look cleaner and to practice exporting and importing.
+  To use this app, run 'node index.js' and then answer the questions to the bet of your ability.
 
   ## Contributions
 
@@ -27,14 +27,14 @@ https://github.com/steveamorris/gt-09-good-README-generator
 
   ## License
 
-  None
+  GNU v3.0
 
   ## Tests
 
-  No tests at the moment.
+  No tests at this point
 
   ## Questions
 
-  If you have any questions or comment please contact me via email at r3steve@gmail.com
+  If you have any questions or comment please contact me via email at r3steve@gmail.com adn find me at https://github.com/steveamorris
 
   
